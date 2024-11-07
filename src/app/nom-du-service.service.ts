@@ -9,7 +9,7 @@ import { contrat } from './Contrat';
 export class NomDuServiceService {
 
  
-  readonly API_URL = 'http://192.168.33.10:8089/Kaddem/contrat';
+  readonly API_URL = 'http://192.168.33.10:8089/kaddem/contrat';
 
   constructor(private httpClient: HttpClient) { }
   getAllContrat() {
